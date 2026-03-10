@@ -7,6 +7,7 @@
          <title>HTML básico</title>
          <meta charset="utf-8">
          <link href="img/favicon.ico" rel="icon" type="image/icon">
+         <script src="https://kit.fontawesome.com/03dbaca4e0.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <!-- Aquí va el contenido de la página -->
@@ -16,22 +17,22 @@
          <nav>
             <ul>
                 <li>
-                    <a href="#" >La ciudad</a>
+                    <a href="#ciudad" >La ciudad</a>
                 </li>
                                 <li>
-                    <a href="#" >Propuestas especiales</a>
+                    <a href="#propuestas" >Propuestas especiales</a>
                 </li>
                                 <li>
-                    <a href="#" >Transportes</a>
+                    <a href="#transportes" >Transportes</a>
                 </li>
             </ul>
          </nav>
 
-         <section>
-            <h2>La Ciudad</h2>
+         <section id="ciudad">
+            <h2><i class="fa-solid fa-city"></i> La Ciudad</h2>
             <div>
                 <div>
-                    <p>Parrafo 1</p>
+                    <p>Parrafo 1 <i class="fa-solid fa-tree"></i> con arbolito</p> 
                     <p>Parrafo 2</p>
                 </div>
                 <figure>
@@ -40,8 +41,8 @@
             </div>
          </section>
 
-         <section>
-            <h2>Propuestas especiales</h2>
+         <section id="propuestas">
+            <h2> <i class="fa-solid fa-star"></i> Propuestas especiales</h2>
             <div>
                 <figure>
                     <img src="img/planes1.jpg" alt="">
@@ -63,17 +64,21 @@
             </div>
          </section>
 
-         <section>
-            <h2>Transportes</h2>
+         <section id="transportes">
+            <h2><i class="fa-solid fa-bus-side"></i> Transportes</h2>
             <p>Parrafo de transportes</p>
             <div>
                 <figure>
                     <img src="img/ALSA_2019_logo.svg.png" alt="Logotipo de ALSA">
                 </figure>
                 <figure>
-                    <imf src="img/logo-vector-avanza-grupo.1.png" alt="Grupo AVANZA"></imf>
+                    <imf src="img/logo-vector-avanza-grupo.1.png" alt="Grupo AVANZA">
                 </figure>
             </div>
          </section>
+
+        <footer>
+            <p>Información extraída de <a href="https://salamanca.es/es" target="blank" title="Se abre en una nueva pestaña">Turismo Salamanca</a> </p>
+        </footer>
     </body>
 </html>
