@@ -1,0 +1,39 @@
+/*selector universal se aplica a todo*/
+*{
+    color: rgb(30, 36, 73);
+    font-family: monospace;
+    background-color: gold;
+}
+
+header {
+    height: 80vh;
+    background-image: url(../img/cabecera.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1,
+h2{
+    font-family: cursive;
+    color: blue;
+}
+
+h2 > i {
+color:rgb(0, 132, 255)
+}
+
+h2{
+    background-color: rgb(209, 27, 209);
+}
+
+#menu>ul>li>a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer>p,
+footer>p>a{
+    color:blue;
+}
+  
