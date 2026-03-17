@@ -1,8 +1,11 @@
 /*selector universal se aplica a todo*/
 *{
     color: rgb(30, 36, 73);
-    font-family: monospace;
-    background-color: gold;
+    font-family: "EB Garamond", serif;
+}
+
+body{
+    background-image: url(../img/cabecera.jpg);
 }
 
 header {
@@ -15,8 +18,18 @@ header {
 
 h1,
 h2{
-    font-family: cursive;
+    font-family: "Urbanist", sans-serif;
     color: blue;
+}
+
+h1{
+    font-size: 6rem;
+    background-color:rgba(0, 140, 255, 0.5);
+    border: rgb(255, 0, 157) 40px dotted;
+    border-radius: 50px;
+    background-image: linear-gradient(gold, navy, gold, navy);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h2 > i {
