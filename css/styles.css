@@ -48,6 +48,14 @@ color:rgb(0, 132, 255)
 
 h2{
     background-color: rgb(248, 255, 238);
+    padding: 2rem;
+    letter-spacing: 0.2em;
+    margin:0 2rem;
+}
+
+
+p{
+margin: 1rem 0;    
 }
 
 #menu > ul {
@@ -69,10 +77,42 @@ h2{
 
 section{
     min-height: 100vh;
+    padding: 0 2rem;
+}
+
+#ciudad>div{
+    display: flex; 
+    align-items: center;
+    gap: 2rem;
+}
+
+#ciudad > div > * {
+    flex:1; 
+}
+
+#ciudad > div > figure > img{
+    border-radius: 10px;
+    border:red 25px solid;
+}
+
+#ciudad>div>figure:hover > img {
+ transform:scale(1,1);
+ filter: grayscale(100%) ;
+}
+   
+
+
+#transportes > div {
+    display: flex;
+    gap: 2rem;
+}
+
+#transportes > div > figure{
+    flex: 1;
 }
 
 footer>p,
 footer>p>a{
     color:blue;
 }
-  
+
